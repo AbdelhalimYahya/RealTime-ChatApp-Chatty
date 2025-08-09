@@ -1,15 +1,14 @@
 # Real-Time Chat App
-- Frontend: React + Vite + Socket.io
+- Frontend: React + Vite + Socket.io-client
+    also i use daisyui and tailwindcss
+
+
 - Backend: Node.js + Express + MongoDB
+    also i use mongoose dotenv jsonwebtoken bcryptjs cookie-parser cloudinary socket.io
 
-## Setup
+
+
+## just clone it in your computer and run this commands
 ```bash
-# Backend
-cd backend
-npm install
-npm start
-
-# Frontend
-cd ../frontend
-npm install
-npm run dev
+npm run build
+npm run start
